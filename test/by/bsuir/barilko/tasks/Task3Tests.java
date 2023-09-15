@@ -23,11 +23,19 @@ public class Task3Tests {
         assertArrayEquals(expected, arr, 0.0001);
     }
 
-    // @Test
-    // public void exeptionTest()
-    // {
-    //     var arr = Task3.solve(0, 2*PI, PI / 2); 
-    //     double[] expected = new double[]{0, 1};
-    //     assertArrayEquals(expected, arr, 0.0001);
-    // }   
+    @Test
+    public void exeptionTest()
+    {
+        boolean exception = false;
+        try
+        {
+            Task3.solve(1, 10, -1); 
+        }
+        catch(Exception e)
+        {
+            exception = true;
+        }
+        
+        assert(exception);
+    }   
 }
