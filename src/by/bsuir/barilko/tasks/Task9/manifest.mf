@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: by.bsuir.barilko.tasks.Task9.Task
+Created-By: 20.0.1 (Oracle Corporation)
+

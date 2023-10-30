@@ -1,7 +1,5 @@
 package by.bsuir.barilko.tasks;
 
-import static org.junit.Assert.assertArrayEquals;
-
 import java.math.BigInteger;
 import java.util.Arrays;
 
